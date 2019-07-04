@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist/",
+    "declaration": true, // 生成 `.d.ts` 文件
+    "declarationDir": "ts",
+    "sourceMap": false,
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es5",
+    "lib": ["es2015", "es2017", "dom"],
+    "jsx": "react",
+    "types": ["node", "jest"],
+    "experimentalDecorators": true,
+    "allowJs": false
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./*.d.ts"
+  ]
+}
